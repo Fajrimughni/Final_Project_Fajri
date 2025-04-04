@@ -1,0 +1,65 @@
+[ Ringkasa Data Final Project dari Kaggle ]
+
+Judul Finpro 	: Analisis Ketahanan Pangan dan Makanan Favorit
+
+Aspek Analisis 	: Ketersediaan, aksesibilitas, konsumsi, dan preferensi makanan
+
+
+
+`Data Ketahanan Pangan` -> ketersediaan, aksesibilitas, dan stabilitas pangan
+
+A. Ketersediaan Pangan (Supply & Production)
+Jumlah produksi pangan lokal (beras, gandum, jagung, daging, ikan, sayur, buah, dll.).
+
+Impor dan ekspor pangan.
+
+Cadangan pangan nasional (stok beras, cadangan daging, dll.).
+
+Distribusi pangan (seberapa lancar makanan sampai ke konsumen?).
+
+B. Aksesibilitas Pangan (Harga & Ekonomi)
+Harga pangan (rata-rata harga bahan pokok di berbagai daerah).
+
+Tingkat pendapatan masyarakat (daya beli terhadap makanan sehat).
+
+Jumlah penduduk di bawah garis kemiskinan.
+
+Jarak ke pusat distribusi makanan (pasar, supermarket, warung, dll.).
+
+Persentase masyarakat yang mengalami rawan pangan (food insecurity index).
+
+C. Stabilitas Pangan
+Perubahan harga pangan sepanjang waktu.
+
+Dampak perubahan iklim terhadap ketahanan pangan.
+
+Data bencana alam yang mempengaruhi produksi pangan (banjir, kekeringan, dll.).
+
+
+
+`Data Makanan Favorit` -> preferensi masyarakat terhadap jenis makanan tertentu
+A. Data Preferensi Konsumen
+Jenis makanan yang paling sering dikonsumsi.
+
+Cuisines favorit (masakan lokal, fast food, makanan sehat, dll.).
+
+Frekuensi konsumsi (berapa kali makan di luar vs masak sendiri di rumah?).
+
+Data pesanan makanan online (GoFood, GrabFood, dll.).
+
+Tren diet dan gaya hidup sehat (vegan, keto, gluten-free, dll.).
+
+B. Data Ulasan dan Sentimen Masyarakat
+Review makanan dari restoran atau platform online (Zomato, Google Reviews, dll.).
+
+Analisis sentimen terhadap makanan tertentu (sehat vs tidak sehat, enak vs tidak enak, dll.).
+
+Opini tentang harga vs kualitas makanan.
+
+C. Data Sosial & Budaya
+Makanan tradisional vs modern (apakah makanan tradisional masih populer?).
+
+Perbedaan selera makanan berdasarkan generasi atau wilayah.
+
+Pengaruh media sosial terhadap tren makanan (TikTok, Instagram, dll.).
+
