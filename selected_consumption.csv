@@ -1,0 +1,711 @@
+city,gender,age,practice_traditional_food,health_factor
+Jakarta,Female,31,Agree,Disagree
+Jakarta,Female,36,Strongly Agree,Neither agree nor disagree
+Jakarta,Male,24,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,63,Agree,Neither agree nor disagree
+Jakarta,Male,43,Agree,Strongly Disagree
+Jakarta,Female,47,Agree,Disagree
+Jakarta,Female,28,Agree,Agree
+Jakarta,Female,48,Agree,Disagree
+Jakarta,Female,36,Agree,Neither agree nor disagree
+Jakarta,Female,39,Agree,Strongly Agree
+Jakarta,Male,53,Agree,Disagree
+Jakarta,Male,57,Strongly Agree,Neither agree nor disagree
+Jakarta,Female,46,Strongly Agree,Disagree
+Jakarta,Female,53,Strongly Agree,Disagree
+Jakarta,Male,58,Agree,Strongly Agree
+Jakarta,Female,62,Strongly Agree,Agree
+Jakarta,Male,41,Agree,Strongly Agree
+Jakarta,Male,61,Strongly Agree,Neither agree nor disagree
+Jakarta,Female,23,Agree,Strongly Agree
+Jakarta,Female,27,Strongly Agree,Strongly Agree
+Jakarta,Female,38,Disagree,Disagree
+Jakarta,Female,24,Neither agree nor disagree,Agree
+Jakarta,Female,33,Strongly Agree,Neither agree nor disagree
+Jakarta,Female,27,Agree,Disagree
+Jakarta,Female,54,Neither agree nor disagree,Strongly Disagree
+Jakarta,Female,30,Disagree,Disagree
+Jakarta,Female,61,Neither agree nor disagree,Strongly Agree
+Jakarta,Male,24,Agree,Disagree
+Jakarta,Male,33,Neither agree nor disagree,Strongly Agree
+Jakarta,Female,31,Agree,Agree
+Jakarta,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,28,Neither agree nor disagree,Strongly Agree
+Jakarta,Male,35,Strongly Agree,Neither agree nor disagree
+Jakarta,Male,63,Strongly Agree,Strongly Agree
+Jakarta,Female,41,Strongly Agree,Strongly Agree
+Jakarta,Female,30,Agree,Agree
+Jakarta,Female,27,Neither agree nor disagree,Disagree
+Jakarta,Female,32,Disagree,Disagree
+Jakarta,Female,29,Neither agree nor disagree,Agree
+Jakarta,Male,31,Neither agree nor disagree,Disagree
+Jakarta,Female,27,Disagree,Disagree
+Jakarta,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,36,Disagree,Disagree
+Jakarta,Male,38,Strongly Agree,Strongly Agree
+Jakarta,Female,63,Disagree,Disagree
+Jakarta,Male,40,Neither agree nor disagree,Agree
+Jakarta,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,33,Neither agree nor disagree,Strongly Agree
+Jakarta,Female,29,Agree,Agree
+Jakarta,Female,27,Disagree,Disagree
+Jakarta,Female,31,Agree,Agree
+Jakarta,Female,24,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,40,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,65,Strongly Agree,Strongly Agree
+Jakarta,Female,31,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,25,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,41,Agree,Neither agree nor disagree
+Jakarta,Female,65,Neither agree nor disagree,Strongly Agree
+Jakarta,Female,38,Strongly Agree,Strongly Agree
+Jakarta,Male,47,Agree,Disagree
+Jakarta,Female,28,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,48,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,27,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,39,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,53,Disagree,Disagree
+Jakarta,Female,57,Neither agree nor disagree,Agree
+Jakarta,Female,46,Disagree,Disagree
+Jakarta,Female,53,Neither agree nor disagree,Strongly Agree
+Jakarta,Female,58,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,23,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,46,Agree,Agree
+Jakarta,Female,34,Disagree,Disagree
+Jakarta,Female,30,Agree,Neither agree nor disagree
+Jakarta,Female,26,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,43,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,55,Strongly Agree,Strongly Agree
+Jakarta,Male,37,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,35,Agree,Agree
+Jakarta,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,41,Strongly Agree,Strongly Agree
+Jakarta,Female,31,Disagree,Disagree
+Jakarta,Female,36,Neither agree nor disagree,Disagree
+Jakarta,Female,52,Neither agree nor disagree,Disagree
+Jakarta,Female,64,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,35,Agree,Agree
+Jakarta,Male,62,Disagree,Disagree
+Jakarta,Female,36,Agree,Neither agree nor disagree
+Jakarta,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,55,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,34,Strongly Agree,Strongly Agree
+Jakarta,Female,30,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,61,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,23,Agree,Agree
+Jakarta,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,31,Strongly Agree,Strongly Agree
+Jakarta,Male,28,Agree,Agree
+Jakarta,Male,45,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,64,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,31,Disagree,Disagree
+Jakarta,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,46,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,64,Neither agree nor disagree,Disagree
+Jakarta,Female,54,Agree,Agree
+Jakarta,Female,47,Disagree,Disagree
+Jakarta,Female,28,Agree,Agree
+Jakarta,Male,48,Neither agree nor disagree,Disagree
+Jakarta,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,39,Strongly Agree,Strongly Agree
+Jakarta,Male,53,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,57,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,46,Agree,Agree
+Jakarta,Male,53,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,58,Strongly Agree,Strongly Agree
+Jakarta,Female,62,Agree,Agree
+Jakarta,Female,33,Disagree,Disagree
+Jakarta,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,32,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,35,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,31,Agree,Neither agree nor disagree
+Jakarta,Male,27,Disagree,Disagree
+Jakarta,Female,49,Agree,Agree
+Jakarta,Female,55,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,47,Strongly Agree,Strongly Agree
+Jakarta,Male,28,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,48,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,26,Agree,Agree
+Jakarta,Female,39,Neither agree nor disagree,Agree
+Jakarta,Female,53,Strongly Agree,Neither agree nor disagree
+Jakarta,Male,57,Agree,Agree
+Jakarta,Female,46,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,53,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,58,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,49,Disagree,Agree
+Jakarta,Male,38,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,25,Strongly Agree,Strongly Agree
+Jakarta,Female,33,Agree,Agree
+Jakarta,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,25,Disagree,Disagree
+Jakarta,Male,61,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,32,Agree,Agree
+Jakarta,Male,42,Disagree,Disagree
+Jakarta,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,36,Neither agree nor disagree,Agree
+Jakarta,Male,50,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,55,Agree,Agree
+Jakarta,Male,54,Disagree,Disagree
+Jakarta,Male,62,Agree,Neither agree nor disagree
+Jakarta,Female,26,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,40,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,33,Disagree,Disagree
+Jakarta,Female,33,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,51,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,40,Neither agree nor disagree,Strongly Agree
+Jakarta,Male,61,Agree,Disagree
+Jakarta,Male,27,Disagree,Disagree
+Jakarta,Female,29,Agree,Agree
+Jakarta,Male,27,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,55,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,60,Disagree,Disagree
+Jakarta,Male,26,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,41,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Female,36,Agree,Agree
+Jakarta,Female,52,Disagree,Disagree
+Jakarta,Female,63,Agree,Agree
+Jakarta,Female,28,Neither agree nor disagree,Strongly Agree
+Jakarta,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,61,Strongly Agree,Strongly Agree
+Jakarta,Male,26,Neither agree nor disagree,Neither agree nor disagree
+Jakarta,Male,27,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,31,Agree,Agree
+Bandung,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,56,Strongly Agree,Strongly Agree
+Bandung,Male,63,Agree,Neither agree nor disagree
+Bandung,Male,54,Neither agree nor disagree,Agree
+Bandung,Female,36,Neither agree nor disagree,Strongly Agree
+Bandung,Female,52,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,63,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,54,Disagree,Disagree
+Bandung,Female,30,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,43,Strongly Agree,Disagree
+Bandung,Female,29,Agree,Agree
+Bandung,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,33,Disagree,Disagree
+Bandung,Male,60,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,54,Agree,Agree
+Bandung,Female,30,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,45,Agree,Agree
+Bandung,Male,32,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,31,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,27,Strongly Agree,Strongly Agree
+Bandung,Male,52,Strongly Agree,Strongly Agree
+Bandung,Female,60,Strongly Agree,Strongly Agree
+Bandung,Female,25,Agree,Agree
+Bandung,Female,31,Agree,Agree
+Bandung,Female,36,Agree,Disagree
+Bandung,Female,34,Agree,Agree
+Bandung,Female,64,Agree,Agree
+Bandung,Female,24,Agree,Agree
+Bandung,Female,47,Agree,Neither agree nor disagree
+Bandung,Female,28,Agree,Agree
+Bandung,Female,48,Agree,Agree
+Bandung,Male,26,Agree,Neither agree nor disagree
+Bandung,Male,39,Agree,Agree
+Bandung,Male,53,Neither agree nor disagree,Strongly Agree
+Bandung,Male,57,Agree,Neither agree nor disagree
+Bandung,Female,46,Disagree,Disagree
+Bandung,Male,53,Agree,Agree
+Bandung,Male,58,Agree,Disagree
+Bandung,Male,50,Agree,Agree
+Bandung,Female,54,Strongly Agree,Strongly Agree
+Bandung,Female,49,Strongly Agree,Strongly Agree
+Bandung,Female,23,Strongly Agree,Neither agree nor disagree
+Bandung,Female,41,Agree,Agree
+Bandung,Female,62,Neither agree nor disagree,Strongly Agree
+Bandung,Male,54,Strongly Agree,Agree
+Bandung,Male,50,Agree,Agree
+Bandung,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,31,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,27,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,37,Disagree,Agree
+Bandung,Male,56,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,54,Disagree,Strongly Agree
+Bandung,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,56,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,51,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,37,Agree,Agree
+Bandung,Female,42,Disagree,Disagree
+Bandung,Female,49,Agree,Agree
+Bandung,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,33,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,27,Strongly Agree,Neither agree nor disagree
+Bandung,Male,35,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,36,Neither agree nor disagree,Agree
+Bandung,Male,26,Agree,Agree
+Bandung,Female,63,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,26,Strongly Agree,Strongly Agree
+Bandung,Male,30,Agree,Disagree
+Bandung,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,32,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,33,Neither agree nor disagree,Strongly Agree
+Bandung,Male,31,Neither agree nor disagree,Disagree
+Bandung,Female,32,Disagree,Agree
+Bandung,Female,31,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,27,Strongly Agree,Neither agree nor disagree
+Bandung,Male,28,Agree,Agree
+Bandung,Female,56,Disagree,Disagree
+Bandung,Female,55,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,47,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,28,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,48,Agree,Agree
+Bandung,Female,29,Disagree,Disagree
+Bandung,Female,39,Agree,Agree
+Bandung,Female,53,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,57,Neither agree nor disagree,Strongly Disagree
+Bandung,Female,46,Strongly Agree,Strongly Agree
+Bandung,Female,53,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,58,Neither agree nor disagree,Strongly Disagree
+Bandung,Female,45,Agree,Disagree
+Bandung,Male,54,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,35,Strongly Agree,Strongly Agree
+Bandung,Female,29,Agree,Strongly Disagree
+Bandung,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,37,Disagree,Disagree
+Bandung,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,28,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,31,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,28,Agree,Agree
+Bandung,Female,33,Disagree,Agree
+Bandung,Female,64,Agree,Agree
+Bandung,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,62,Neither agree nor disagree,Strongly Agree
+Bandung,Male,50,Strongly Agree,Strongly Agree
+Bandung,Male,38,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,33,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,27,Agree,Agree
+Bandung,Female,43,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,49,Strongly Agree,Strongly Agree
+Bandung,Female,40,Agree,Agree
+Bandung,Male,35,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,29,Strongly Agree,Strongly Agree
+Bandung,Female,57,Strongly Agree,Strongly Agree
+Bandung,Female,34,Strongly Agree,Strongly Agree
+Bandung,Female,28,Disagree,Disagree
+Bandung,Female,34,Neither agree nor disagree,Disagree
+Bandung,Male,55,Strongly Agree,Strongly Agree
+Bandung,Male,46,Agree,Agree
+Bandung,Female,30,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,41,Disagree,Disagree
+Bandung,Male,26,Neither agree nor disagree,Strongly Agree
+Bandung,Female,29,Agree,Agree
+Bandung,Male,31,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,36,Agree,Neither agree nor disagree
+Bandung,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,60,Strongly Agree,Strongly Agree
+Bandung,Female,54,Strongly Agree,Neither agree nor disagree
+Bandung,Female,41,Strongly Agree,Disagree
+Bandung,Female,60,Strongly Agree,Strongly Agree
+Bandung,Female,27,Agree,Agree
+Bandung,Female,52,Disagree,Disagree
+Bandung,Female,56,Agree,Agree
+Bandung,Female,45,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,61,Strongly Agree,Strongly Agree
+Bandung,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Female,26,Agree,Agree
+Bandung,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,52,Strongly Agree,Strongly Agree
+Bandung,Male,64,Agree,Neither agree nor disagree
+Bandung,Female,54,Neither agree nor disagree,Strongly Agree
+Bandung,Male,40,Neither agree nor disagree,Strongly Agree
+Bandung,Male,60,Neither agree nor disagree,Neither agree nor disagree
+Bandung,Male,35,Strongly Agree,Strongly Agree
+Bandung,Female,56,Strongly Agree,Strongly Agree
+Bandung,Male,49,Strongly Agree,Neither agree nor disagree
+Surabaya,Female,38,Strongly Agree,Strongly Agree
+Surabaya,Male,31,Agree,Agree
+Surabaya,Female,36,Neither agree nor disagree,Agree
+Surabaya,Female,52,Strongly Agree,Neither agree nor disagree
+Surabaya,Female,59,Strongly Agree,Strongly Agree
+Surabaya,Female,43,Agree,Agree
+Surabaya,Male,47,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,28,Strongly Agree,Strongly Agree
+Surabaya,Male,48,Strongly Agree,Strongly Agree
+Surabaya,Male,36,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,53,Agree,Agree
+Surabaya,Male,57,Strongly Agree,Strongly Agree
+Surabaya,Male,46,Agree,Neither agree nor disagree
+Surabaya,Male,53,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,58,Strongly Agree,Strongly Agree
+Surabaya,Female,62,Strongly Agree,Neither agree nor disagree
+Surabaya,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,43,Strongly Agree,Strongly Agree
+Surabaya,Male,32,Strongly Agree,Neither agree nor disagree
+Surabaya,Male,42,Strongly Agree,Disagree
+Surabaya,Male,38,Strongly Agree,Strongly Agree
+Surabaya,Male,41,Agree,Agree
+Surabaya,Male,45,Neither agree nor disagree,Disagree
+Surabaya,Male,32,Neither agree nor disagree,Strongly Agree
+Surabaya,Male,26,Neither agree nor disagree,Agree
+Surabaya,Male,31,Strongly Agree,Neither agree nor disagree
+Surabaya,Male,25,Agree,Agree
+Surabaya,Female,37,Strongly Agree,Strongly Agree
+Surabaya,Female,63,Strongly Agree,Neither agree nor disagree
+Surabaya,Female,40,Agree,Agree
+Surabaya,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,38,Disagree,Disagree
+Surabaya,Female,61,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,32,Agree,Agree
+Surabaya,Female,27,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,62,Agree,Neither agree nor disagree
+Surabaya,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,49,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,33,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,42,Strongly Agree,Strongly Agree
+Surabaya,Female,30,Strongly Agree,Strongly Agree
+Surabaya,Female,50,Strongly Agree,Strongly Agree
+Surabaya,Female,35,Agree,Agree
+Surabaya,Male,42,Neither agree nor disagree,Strongly Agree
+Surabaya,Female,28,Disagree,Agree
+Surabaya,Male,28,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,38,Strongly Agree,Strongly Agree
+Surabaya,Female,63,Strongly Agree,Strongly Agree
+Surabaya,Female,35,Strongly Agree,Strongly Agree
+Surabaya,Female,30,Strongly Agree,Strongly Agree
+Surabaya,Female,61,Strongly Agree,Strongly Agree
+Surabaya,Female,30,Agree,Agree
+Surabaya,Female,45,Agree,Neither agree nor disagree
+Surabaya,Female,27,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,26,Agree,Agree
+Surabaya,Male,52,Disagree,Disagree
+Surabaya,Male,59,Agree,Agree
+Surabaya,Male,34,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,35,Neither agree nor disagree,Agree
+Surabaya,Female,60,Strongly Agree,Strongly Agree
+Surabaya,Male,50,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,40,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,30,Agree,Neither agree nor disagree
+Surabaya,Female,61,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,32,Strongly Agree,Strongly Agree
+Surabaya,Female,43,Agree,Agree
+Surabaya,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,40,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,55,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,33,Disagree,Disagree
+Surabaya,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,28,Strongly Agree,Strongly Agree
+Surabaya,Female,30,Agree,Agree
+Surabaya,Male,29,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,25,Disagree,Disagree
+Surabaya,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,52,Agree,Agree
+Surabaya,Female,59,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,54,Agree,Strongly Disagree
+Surabaya,Female,47,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,28,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,48,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,36,Strongly Agree,Strongly Agree
+Surabaya,Female,39,Strongly Agree,Strongly Agree
+Surabaya,Male,53,Strongly Agree,Disagree
+Surabaya,Male,57,Agree,Agree
+Surabaya,Male,46,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,53,Disagree,Disagree
+Surabaya,Female,58,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,26,Disagree,Disagree
+Surabaya,Male,61,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,25,Disagree,Disagree
+Surabaya,Male,32,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,33,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,25,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,51,Agree,Agree
+Surabaya,Female,32,Disagree,Disagree
+Surabaya,Female,42,Agree,Agree
+Surabaya,Female,31,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,41,Strongly Agree,Strongly Agree
+Surabaya,Female,63,Neither agree nor disagree,Agree
+Surabaya,Female,54,Neither agree nor disagree,Agree
+Surabaya,Male,51,Agree,Disagree
+Surabaya,Male,24,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,61,Strongly Agree,Strongly Agree
+Surabaya,Male,32,Agree,Disagree
+Surabaya,Female,42,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,50,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,56,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Male,26,Neither agree nor disagree,Neither agree nor disagree
+Surabaya,Female,32,Disagree,Neither agree nor disagree
+Surabaya,Female,40,Neither agree nor disagree,Agree
+Surabaya,Female,33,Strongly Agree,Neither agree nor disagree
+Surabaya,Female,26,Agree,Agree
+Makasar,Female,42,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,31,Disagree,Disagree
+Makasar,Male,27,Neither agree nor disagree,Disagree
+Makasar,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,63,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,55,Agree,Neither agree nor disagree
+Makasar,Female,49,Disagree,Disagree
+Makasar,Male,54,Agree,Agree
+Makasar,Male,61,Neither agree nor disagree,Disagree
+Makasar,Male,27,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,42,Strongly Agree,Strongly Agree
+Makasar,Female,45,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,50,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,34,Agree,Agree
+Makasar,Female,32,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,38,Strongly Agree,Agree
+Makasar,Female,31,Agree,Agree
+Makasar,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,59,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,49,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,43,Disagree,Disagree
+Makasar,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,61,Disagree,Disagree
+Makasar,Male,29,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,42,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,62,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,46,Agree,Agree
+Makasar,Male,28,Disagree,Disagree
+Makasar,Female,38,Agree,Agree
+Makasar,Female,43,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,51,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,60,Strongly Agree,Strongly Agree
+Makasar,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,35,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,30,Agree,Agree
+Makasar,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,31,Strongly Agree,Strongly Agree
+Makasar,Female,36,Agree,Agree
+Makasar,Male,43,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,63,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,45,Neither agree nor disagree,Disagree
+Makasar,Female,30,Neither agree nor disagree,Disagree
+Makasar,Female,37,Disagree,Disagree
+Makasar,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,35,Strongly Agree,Disagree
+Makasar,Female,31,Agree,Disagree
+Makasar,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,52,Disagree,Disagree
+Makasar,Female,59,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,43,Agree,Disagree
+Makasar,Male,30,Neither agree nor disagree,Disagree
+Makasar,Male,38,Agree,Agree
+Makasar,Male,30,Disagree,Disagree
+Makasar,Male,34,Neither agree nor disagree,Agree
+Makasar,Female,28,Neither agree nor disagree,Agree
+Makasar,Male,36,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,45,Agree,Agree
+Makasar,Male,59,Disagree,Disagree
+Makasar,Female,41,Agree,Agree
+Makasar,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,40,Neither agree nor disagree,Strongly Disagree
+Makasar,Female,26,Strongly Agree,Disagree
+Makasar,Female,42,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,31,Neither agree nor disagree,Strongly Agree
+Makasar,Male,36,Agree,Disagree
+Makasar,Male,46,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,59,Strongly Agree,Strongly Agree
+Makasar,Male,40,Agree,Neither agree nor disagree
+Makasar,Female,41,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,54,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,61,Neither agree nor disagree,Disagree
+Makasar,Male,32,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,26,Disagree,Disagree
+Makasar,Female,62,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,30,Strongly Agree,Neither agree nor disagree
+Makasar,Female,41,Agree,Agree
+Makasar,Female,27,Disagree,Disagree
+Makasar,Female,35,Neither agree nor disagree,Disagree
+Makasar,Female,28,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,38,Agree,Neither agree nor disagree
+Makasar,Male,63,Disagree,Disagree
+Makasar,Male,30,Agree,Agree
+Makasar,Male,43,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,40,Neither agree nor disagree,Disagree
+Makasar,Male,33,Strongly Agree,Strongly Agree
+Makasar,Male,31,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,36,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,52,Agree,Agree
+Makasar,Male,59,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,38,Strongly Agree,Neither agree nor disagree
+Makasar,Male,40,Agree,Agree
+Makasar,Female,53,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,42,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,48,Neither agree nor disagree,Disagree
+Makasar,Female,45,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,40,Disagree,Disagree
+Makasar,Female,50,Neither agree nor disagree,Disagree
+Makasar,Female,30,Strongly Agree,Strongly Agree
+Makasar,Female,45,Agree,Agree
+Makasar,Male,25,Neither agree nor disagree,Strongly Disagree
+Makasar,Male,29,Disagree,Disagree
+Makasar,Male,31,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,36,Disagree,Disagree
+Makasar,Female,52,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,59,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,54,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,62,Agree,Disagree
+Makasar,Female,41,Disagree,Disagree
+Makasar,Female,36,Agree,Agree
+Makasar,Female,23,Neither agree nor disagree,Disagree
+Makasar,Female,49,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Female,22,Strongly Agree,Strongly Agree
+Makasar,Male,42,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,31,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,36,Agree,Agree
+Makasar,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Makasar,Male,59,Strongly Agree,Neither agree nor disagree
+Makasar,Female,37,Agree,Agree
+Denpasar,Male,38,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,54,Neither agree nor disagree,Disagree
+Denpasar,Male,50,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,22,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,29,Disagree,Disagree
+Denpasar,Female,49,Neither agree nor disagree,Disagree
+Denpasar,Female,35,Strongly Agree,Strongly Agree
+Denpasar,Female,30,Agree,Agree
+Denpasar,Female,51,Neither agree nor disagree,Disagree
+Denpasar,Female,23,Disagree,Disagree
+Denpasar,Female,42,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,29,Disagree,Disagree
+Denpasar,Male,28,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,34,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,59,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,54,Agree,Neither agree nor disagree
+Denpasar,Female,38,Disagree,Strongly Agree
+Denpasar,Male,61,Agree,Strongly Agree
+Denpasar,Female,24,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,32,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,31,Strongly Agree,Strongly Agree
+Denpasar,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,35,Neither agree nor disagree,Disagree
+Denpasar,Female,59,Agree,Agree
+Denpasar,Female,54,Neither agree nor disagree,Strongly Agree
+Denpasar,Female,37,Strongly Agree,Neither agree nor disagree
+Denpasar,Female,54,Agree,Disagree
+Denpasar,Female,33,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,33,Neither agree nor disagree,Agree
+Denpasar,Female,35,Neither agree nor disagree,Disagree
+Denpasar,Male,24,Disagree,Disagree
+Denpasar,Male,28,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,35,Strongly Agree,Strongly Agree
+Denpasar,Male,42,Agree,Strongly Agree
+Denpasar,Female,25,Neither agree nor disagree,Strongly Agree
+Denpasar,Male,43,Disagree,Strongly Agree
+Denpasar,Female,26,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,30,Agree,Neither agree nor disagree
+Denpasar,Female,35,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,27,Agree,Agree
+Denpasar,Female,33,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,31,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,36,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,37,Strongly Agree,Strongly Agree
+Denpasar,Male,63,Strongly Agree,Disagree
+Denpasar,Male,26,Strongly Agree,Strongly Agree
+Denpasar,Male,34,Agree,Agree
+Denpasar,Male,39,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,26,Disagree,Disagree
+Denpasar,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,37,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,32,Disagree,Disagree
+Denpasar,Female,25,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,31,Disagree,Strongly Agree
+Denpasar,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,52,Neither agree nor disagree,Strongly Agree
+Denpasar,Female,50,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,51,Agree,Agree
+Denpasar,Female,50,Disagree,Disagree
+Denpasar,Female,33,Agree,Agree
+Denpasar,Male,58,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,25,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,29,Strongly Agree,Strongly Agree
+Denpasar,Male,33,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,56,Agree,Agree
+Denpasar,Female,32,Neither agree nor disagree,Strongly Agree
+Denpasar,Male,45,Strongly Agree,Strongly Agree
+Denpasar,Female,31,Agree,Agree
+Denpasar,Male,41,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,51,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,51,Disagree,Strongly Agree
+Denpasar,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,42,Disagree,Strongly Agree
+Denpasar,Female,52,Neither agree nor disagree,Strongly Agree
+Denpasar,Female,51,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,30,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,37,Agree,Agree
+Denpasar,Male,42,Disagree,Disagree
+Denpasar,Male,26,Agree,Agree
+Denpasar,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,52,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,25,Strongly Agree,Strongly Agree
+Denpasar,Male,34,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,57,Neither agree nor disagree,Strongly Agree
+Denpasar,Male,54,Agree,Agree
+Denpasar,Female,58,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,24,Strongly Agree,Strongly Agree
+Denpasar,Female,42,Agree,Agree
+Denpasar,Female,55,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,54,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,28,Neither agree nor disagree,Strongly Agree
+Denpasar,Male,34,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,32,Disagree,Strongly Agree
+Denpasar,Female,45,Neither agree nor disagree,Strongly Agree
+Denpasar,Male,49,Strongly Agree,Strongly Agree
+Denpasar,Female,59,Agree,Agree
+Denpasar,Male,53,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,48,Disagree,Strongly Agree
+Denpasar,Male,46,Neither agree nor disagree,Strongly Agree
+Denpasar,Female,51,Agree,Agree
+Denpasar,Female,52,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,25,Agree,Strongly Agree
+Denpasar,Female,24,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,37,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,56,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,32,Strongly Agree,Strongly Agree
+Denpasar,Female,42,Strongly Agree,Strongly Agree
+Denpasar,Male,28,Strongly Agree,Strongly Agree
+Denpasar,Male,29,Disagree,Disagree
+Denpasar,Male,38,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,56,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,32,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,29,Agree,Agree
+Denpasar,Male,27,Disagree,Disagree
+Denpasar,Female,55,Agree,Agree
+Denpasar,Male,30,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,31,Strongly Agree,Strongly Agree
+Denpasar,Female,26,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,40,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,57,Agree,Strongly Agree
+Denpasar,Female,34,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,56,Strongly Agree,Strongly Agree
+Denpasar,Female,39,Agree,Agree
+Denpasar,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,52,Neither agree nor disagree,Strongly Agree
+Denpasar,Female,64,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,52,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,32,Disagree,Disagree
+Denpasar,Female,29,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,28,Strongly Agree,Strongly Agree
+Denpasar,Female,27,Agree,Strongly Agree
+Denpasar,Male,52,Neither agree nor disagree,Agree
+Denpasar,Male,57,Disagree,Disagree
+Denpasar,Male,54,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,56,Agree,Agree
+Denpasar,Female,39,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,42,Agree,Agree
+Denpasar,Female,52,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Female,64,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,51,Neither agree nor disagree,Neither agree nor disagree
+Denpasar,Male,26,Strongly Agree,Strongly Agree
+Denpasar,Male,30,Strongly Agree,Strongly Agree
+Denpasar,Female,45,Strongly Agree,Strongly Agree

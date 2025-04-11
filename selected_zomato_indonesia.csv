@@ -1,0 +1,22 @@
+restaurant_id,restaurant_name,city,cuisines,count,average_cost_for_two,aggregate_rating,votes,country_code
+18400530,Noah's Barn Coffeenery,Bandung,Cafe,5,150000,4.2,22,94
+7423620,Momo Milk,Bogor,Cafe,5,70000,3.7,783,94
+7423482,Lemongrass,Bogor,Peranakan,1,250000,4.0,1159,94
+7422633,Talaga Sampireun,Jakarta,Sunda,3,200000,4.9,1662,94
+7405789,Toodz House,Jakarta,Cafe,5,165000,4.6,1476,94
+18425821,OJJU,Jakarta,Korean,1,200000,3.9,137,94
+7422751,Union Deli,Jakarta,Desserts,2,200000,4.6,903,94
+7402935,Skye,Jakarta,Italian,2,800000,4.1,1498,94
+7410290,Satoo - Hotel Shangri-La,Jakarta,Asian,2,800000,4.6,873,94
+18391256,MONKS,Jakarta,Western,9,250000,4.2,259,94
+7400818,Zenbu,Jakarta,Japanese,3,200000,4.4,841,94
+7420899,Sushi Masa,Jakarta,Sushi,2,500000,4.9,605,94
+18352452,Lucky Cat Coffee & Kitchen,Jakarta,Cafe,5,300000,4.3,458,94
+7421967,3 Wise Monkeys,Jakarta,Japanese,3,450000,4.2,395,94
+18370659,Flip Burger,Jakarta,Burger,1,120000,4.4,410,94
+7417455,Talaga Sampireun,Jakarta,Sunda,3,200000,4.9,1640,94
+18409146,Fish Streat,Jakarta,Seafood,2,100000,3.4,152,94
+18408381,Fish Streat,Jakarta,Seafood,2,100000,4.0,331,94
+7422489,Avec Moi Restaurant and Bar,Jakarta,French,1,350000,4.3,243,94
+18386856,Onokabe,Tangerang,Indonesian,7,300000,3.7,155,94
+7417450,Talaga Sampireun,Tangerang,Sunda,3,200000,4.9,2212,94
