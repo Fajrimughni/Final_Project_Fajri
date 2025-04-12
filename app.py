@@ -5,7 +5,26 @@ from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 import seaborn as sns
 import matplotlib.pyplot as plt
-from recommend import recommend_recipe  # fungsi rekomendasi eksternal
+
+# ------------------ FUNCTION: REKOMENDASI RESEP ------------------ #
+def recommend_recipe(user, df_recipe):
+    # Contoh aturan sederhana:
+    traditional = user['prefer_traditional'] == 'Yes'
+    healthy = user['prefer_healthy'] == 'Yes'
+
+    df_filtered = df_recipe.copy()
+
+    if healthy:
+        df_filtered = df_filtered[df_filtered['total_calories_estimated'] < 500]
+
+    if traditional:
+        df_filtered = df_filtered[df_filtered['title'].str.contains('Ayam|Nasi|Soto|Goreng', case=False)]
+
+    # Urutkan berdasarkan popularitas
+    df_filtered = df_filtered.sort_values(by='loves', ascending=False)
+
+    return df_filtered.head(5)  # top 5 rekomendasi
+
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
@@ -63,12 +82,14 @@ with tab1:
     # Visualisasi
     fig1, ax1 = plt.subplots(figsize=(8, 6))
     sns.scatterplot(data=resep, x='pca1', y='pca2', hue='segment_label', palette='tab10', ax=ax1)
+    ax1.set_xlabel("PCA 1")
+    ax1.set_ylabel("PCA 2")
     ax1.set_title("Distribusi Resep Berdasarkan Klaster")
     st.pyplot(fig1)
 
+    st.subheader("📈 Korelasi Antar Fitur")
     fig2, ax2 = plt.subplots(figsize=(6, 4))
     sns.heatmap(resep[['total_calories_estimated', 'loves', 'num_ingredients', 'cluster']].corr(), annot=True, cmap='coolwarm', ax=ax2)
-    st.subheader("📈 Korelasi Antar Fitur")
     st.pyplot(fig2)
 
     st.subheader("🔍 Lihat Data Berdasarkan Klaster")
@@ -89,6 +110,7 @@ with tab2:
                 f"**Suka Makanan Tradisional**: {user['prefer_traditional']}  \n"
                 f"**Suka Makanan Sehat**: {user['prefer_healthy']}")
 
+    # Menggunakan fungsi rekomendasi
     recs = recommend_recipe(user, df_recipe_revised)
 
     st.subheader("🍽️ Rekomendasi Resep untuk Anda")
