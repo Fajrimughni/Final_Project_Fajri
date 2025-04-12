@@ -1,0 +1,9 @@
+name: Finpro
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - streamlit
+  - pandas
+  - scikit-learn
