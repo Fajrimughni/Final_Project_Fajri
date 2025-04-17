@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from recommendation_2 import recommend_recipe  # fungsi rekomendasi eksternal
 from penjelasan import show_info  # Mengimpor fungsi show_info
-from about import about_me  # Mengimpor fungsi about_me
+from About import about_me  # Mengimpor fungsi about_me
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
