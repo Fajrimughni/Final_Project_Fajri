@@ -15,7 +15,7 @@ st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
-resep = pd.read_csv("cluster final.csv")
+df_cluster = pd.read_csv("cluster final.csv")
 df_recipe_revised = pd.read_csv("Revisi Resep Kostum Nutrisi.csv")
 consumer_profile = pd.read_csv("Profil Konsumen.csv")
 
@@ -31,8 +31,8 @@ with tab1:
     st.subheader("📍 Visualisasi Segmentasi Resep Berdasarkan Klaster")
 
     # Fitur numerik
-    resep['num_ingredients'] = resep['ingredients_list'].apply(len)
-    fitur = resep[['total_calories_estimated', 'loves', 'num_ingredients']]
+    df_cluster['num_ingredients'] = df_cluster['ingredients_list'].apply(len)
+    fitur = df_cluster[['total_calories_estimated', 'loves', 'num_ingredients']]
 
     # Standarisasi
     scaler = StandardScaler()
@@ -41,10 +41,10 @@ with tab1:
     # Slider klaster
     k = st.slider("🔢 Pilih jumlah klaster", min_value=2, max_value=10, value=4)
     kmeans = KMeans(n_clusters=k, random_state=42)
-    resep['cluster'] = kmeans.fit_predict(X_scaled)
+    df_cluster['cluster'] = kmeans.fit_predict(X_scaled)
 
     # Label klaster
-    cluster_means = resep.groupby('cluster')[['total_calories_estimated', 'loves', 'num_ingredients']].mean()
+    cluster_means = df_cluster.groupby('cluster')[['total_calories_estimated', 'loves', 'num_ingredients']].mean()
     labels = []
     for i in range(k):
         row = cluster_means.loc[i]
@@ -58,28 +58,28 @@ with tab1:
                 labels.append("Favorit Sehat")
             else:
                 labels.append("Sehat")
-    resep['segment_label'] = resep['cluster'].apply(lambda x: labels[x])
+    df_cluster['segment_label'] = df_cluster['cluster'].apply(lambda x: labels[x])
 
     # PCA
     pca = PCA(n_components=2)
     X_pca = pca.fit_transform(X_scaled)
-    resep['pca1'] = X_pca[:, 0]
-    resep['pca2'] = X_pca[:, 1]
+    df_cluster['pca1'] = X_pca[:, 0]
+    df_cluster['pca2'] = X_pca[:, 1]
 
     # Visualisasi
     fig1, ax1 = plt.subplots(figsize=(8, 6))
-    sns.scatterplot(data=resep, x='pca1', y='pca2', hue='segment_label', palette='tab10', ax=ax1)
+    sns.scatterplot(data=df_cluster, x='pca1', y='pca2', hue='segment_label', palette='tab10', ax=ax1)
     ax1.set_title("Distribusi Resep Berdasarkan Klaster")
     st.pyplot(fig1)
 
     fig2, ax2 = plt.subplots(figsize=(6, 4))
-    sns.heatmap(resep[['total_calories_estimated', 'loves', 'num_ingredients', 'cluster']].corr(), annot=True, cmap='coolwarm', ax=ax2)
+    sns.heatmap(df_cluster[['total_calories_estimated', 'loves', 'num_ingredients', 'cluster']].corr(), annot=True, cmap='coolwarm', ax=ax2)
     st.subheader("📈 Korelasi Antar Fitur")
     st.pyplot(fig2)
 
     st.subheader("🔍 Lihat Data Berdasarkan Klaster")
-    selected_label = st.selectbox("Pilih segmen klaster:", sorted(resep['segment_label'].unique()))
-    filtered_df = resep[resep['segment_label'] == selected_label]
+    selected_label = st.selectbox("Pilih segmen klaster:", sorted(df_cluster['segment_label'].unique()))
+    filtered_df = df_cluster[df_cluster['segment_label'] == selected_label]
     st.dataframe(filtered_df[['title', 'total_calories_estimated', 'loves', 'num_ingredients', 'segment_label']].reset_index(drop=True))
 
 # ------------------ TAB 2: REKOMENDASI ------------------ #
