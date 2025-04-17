@@ -6,6 +6,8 @@ from sklearn.cluster import KMeans
 import seaborn as sns
 import matplotlib.pyplot as plt
 from recommendation_2 import recommend_recipe  # fungsi rekomendasi eksternal
+from penjelasan import show_info  # Mengimpor fungsi show_info
+from about import about_me  # Mengimpor fungsi about_me
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
@@ -18,7 +20,11 @@ df_recipe_revised = pd.read_csv("Revisi Resep Kostum Nutrisi.csv")
 consumer_profile = pd.read_csv("Profil Konsumen.csv")
 
 # ------------------ TAB SELEKTOR ------------------ #
-tab1, tab2 = st.tabs(["📊 Segmentasi Resep", "🎯 Rekomendasi Resep"])
+tab0, tab1, tab2 = st.tabs(["ℹ️ Tentang Saya", "📊 Segmentasi Resep", "🎯 Rekomendasi Resep"])
+
+# ------------------ TAB 0: TENTANG SAYA ------------------ #
+with tab0:
+    about_me()  # Menampilkan informasi tentang diri pengembang dari about.py
 
 # ------------------ TAB 1: SEGMENTASI ------------------ #
 with tab1:
