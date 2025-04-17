@@ -5,7 +5,7 @@ from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 import seaborn as sns
 import matplotlib.pyplot as plt
-from recommend import recommend_recipe  # fungsi rekomendasi eksternal
+from recommendation_2 import recommend_recipe  # fungsi rekomendasi eksternal
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
