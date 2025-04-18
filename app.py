@@ -1,15 +1,24 @@
 import streamlit as st
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.cluster import KMeans
+import seaborn as sns
+import matplotlib.pyplot as plt
+from recommendation_2 import recommend_recipe, prepare_recipe_data
+from penjelasan import show_info
+from About import about_me
 from Music import add_background_music  # Mengimpor fungsi dari music.py
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
-# URL file musik dari Google Drive (pastikan ini dapat diakses publik)
-music_url = "https://drive.google.com/uc?export=download&id=1uxOQufr6DOlbtCLgONFmhDS1l72rqUV4"
+# Tentukan path file musik
+music_path = "https://drive.google.com/uc?export=download&id=1uxOQufr6DOlbtCLgONFmhDS1l72rqUV4"
 
 # Memanggil fungsi untuk menambahkan musik latar
-add_background_music(music_url)
+add_background_music(music_path)
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
