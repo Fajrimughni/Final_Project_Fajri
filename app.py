@@ -17,6 +17,9 @@ def add_background_music(music_file):
 st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
+# Menambahkan musik latar
+add_background_music("path/to/music.mp3")  # Gantilah dengan path file musik Anda
+
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
 df_cluster = pd.read_csv("cluster final.csv")
