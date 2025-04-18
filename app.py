@@ -15,11 +15,11 @@ st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
 # ------------------ MENAMBAHKAN MUSIK Latar ------------------ #
-# URL langsung untuk file musik di Google Drive
-music_url = "https://drive.google.com/uc?id=1nHFARzdqJjtL5sbfuc2E462ke36oDx26"  # Link langsung file musik
+# URL file musik yang sudah diubah
+music_url = "https://drive.google.com/uc?id=1nHFARzdqJjtL5sbfuc2E462ke36oDx26"
 
-# Memanggil fungsi untuk menambahkan musik latar
-add_background_music(music_url)
+# Menambahkan musik latar
+st.audio(music_url, format="audio/mp3", autoplay=True)
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
