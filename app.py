@@ -15,7 +15,7 @@ st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
 # Menambahkan musik latar
-music_path = "C:\Users\ASUS\Downloads\Lady-Gaga-Close-To-You-(HipHopKit.com).mp3"
+music_path = "C:\\Users\\ASUS\\Downloads\\Lady-Gaga-Close-To-You-(HipHopKit.com).mp3"
 if os.path.exists(music_path):
     add_background_music(music_path)  # Menambahkan musik jika file ditemukan
 else:
