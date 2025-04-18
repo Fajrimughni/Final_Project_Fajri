@@ -15,7 +15,7 @@ st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
 # Tentukan path file musik
-music_path = "https://drive.google.com/uc?export=download&id=1uxOQufr6DOlbtCLgONFmhDS1l72rqUV4"
+music_url = "https://www.dropbox.com/scl/fi/qwjr1gnphqz2b4okp6l3a/Lady-Gaga-Close-To-You-HipHopKit.com.mp3?rlkey=ne5pn38xrojjyde0jrpzpymrs&st=pjqbg1rs&dl=1"
 
 # Memanggil fungsi untuk menambahkan musik latar
 add_background_music(music_path)
