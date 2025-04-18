@@ -1,12 +1,11 @@
 import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.cluster import KMeans  # Pastikan impor KMeans ada di sini
+from sklearn.decomposition import PCA  # Pastikan PCA diimpor
+from sklearn.cluster import KMeans
 from recommendation_2 import recommend_recipe  # fungsi rekomendasi eksternal
 from penjelasan import show_info  # Mengimpor fungsi show_info
 from About import about_me  # Mengimpor fungsi about_me
-
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
