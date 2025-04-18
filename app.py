@@ -14,12 +14,11 @@ from Music import add_background_music  # Mengimpor fungsi dari music.py
 st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
-# Menambahkan musik latar
-music_path = r"C:\Users\ASUS\Downloads\Lady-Gaga-Close-To-You-(HipHopKit.com).mp3"
-if os.path.exists(music_path):
-    add_background_music(music_path)  # Menambahkan musik jika file ditemukan
-else:
-    st.error(f"File musik tidak ditemukan di path {music_path}")
+# Tentukan path file musik
+music_path = r"C:\Users\ASUS\Downloads\Lady-Gaga-Close-To-You-(HipHopKit.com).mp3"  # Sesuaikan dengan path musik Anda
+
+# Memanggil fungsi untuk menambahkan musik latar
+add_background_music(music_path)
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
