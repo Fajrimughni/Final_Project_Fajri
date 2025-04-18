@@ -8,10 +8,18 @@ import matplotlib.pyplot as plt
 from recommendation_2 import recommend_recipe, prepare_recipe_data
 from penjelasan import show_info
 from About import about_me
+from music import add_background_music  # Mengimpor fungsi dari music.py
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
+
+# Menambahkan musik latar
+music_path = https://drive.google.com/file/d/1nHFARzdqJjtL5sbfuc2E462ke36oDx26/view?usp=sharing
+if os.path.exists(music_path):
+    add_background_music(music_path)  # Menambahkan musik jika file ditemukan
+else:
+    st.error(f"File musik tidak ditemukan di path {music_path}")
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
