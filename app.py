@@ -18,7 +18,7 @@ st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 music_url = "https://www.dropbox.com/scl/fi/qwjr1gnphqz2b4okp6l3a/Lady-Gaga-Close-To-You-HipHopKit.com.mp3?rlkey=ne5pn38xrojjyde0jrpzpymrs&st=pjqbg1rs&dl=1"
 
 # Memanggil fungsi untuk menambahkan musik latar
-add_background_music(music_path)
+add_background_music(music_url)
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
