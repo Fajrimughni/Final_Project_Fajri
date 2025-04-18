@@ -9,16 +9,9 @@ from recommendation_2 import recommend_recipe, prepare_recipe_data
 from penjelasan import show_info
 from About import about_me
 
-# Fungsi untuk menambahkan musik latar
-def add_background_music(music_file):
-    st.audio(music_file, format="audio/mp3", autoplay=True)
-
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
-
-# Menambahkan musik latar
-add_background_music("path/to/music.mp3")  # Gantilah dengan path file musik Anda
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
