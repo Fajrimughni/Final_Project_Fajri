@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from recommendation_2 import recommend_recipe, prepare_recipe_data
 from penjelasan import show_info
 from About import about_me
-from Music import add_background_music  # Mengimpor fungsi dari music.py
+from Music import add_background_music  # Mengimpor fungsi dari Music.py
 
 # ------------------ CONFIG ------------------ #
 st.set_page_config(layout="wide")
