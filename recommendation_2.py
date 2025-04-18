@@ -5,7 +5,9 @@ from sklearn.preprocessing import StandardScaler
 def recommend_recipe(user, df_recipe, top_n=5):
     # Tambahkan kolom num_ingredients jika belum ada
     if 'num_ingredients' not in df_recipe.columns:
-        df_recipe['num_ingredients'] = df_recipe['ingredients_list'].apply(len)
+        # Fitur numerik
+        df_cluster['num_ingredients'] = df_cluster['ingredients_list'].apply(lambda x: len(eval(x)) if isinstance(x, str) else 0)
+
 
     # Preferensi user
     prefer_healthy = user['prefer_healthy']

@@ -31,7 +31,8 @@ with tab1:
     st.subheader("📍 Visualisasi Segmentasi Resep Berdasarkan Klaster")
 
     # Fitur numerik
-    df_cluster['num_ingredients'] = df_cluster['ingredients_list'].apply(len)
+    # Fitur numerik
+    df_cluster['num_ingredients'] = df_cluster['ingredients_list'].apply(lambda x: len(eval(x)) if isinstance(x, str) else 0)
     fitur = df_cluster[['total_calories_estimated', 'loves', 'num_ingredients']]
 
     # Standarisasi
