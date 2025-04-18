@@ -14,12 +14,11 @@ from Music import add_background_music  # Mengimpor fungsi dari music.py
 st.set_page_config(layout="wide")
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
-# ------------------ MENAMBAHKAN MUSIK Latar ------------------ #
-# URL file musik yang sudah diubah
+# URL file musik dari Google Drive (pastikan ini dapat diakses publik)
 music_url = "https://drive.google.com/uc?export=download&id=1nHFARzdqJjtL5sbfuc2E462ke36oDx26"
 
-# Menambahkan musik latar
-st.audio(music_url, format="audio/mp3", autoplay=True)
+# Memanggil fungsi untuk menambahkan musik latar
+add_background_music(music_url)
 
 # ------------------ LOAD DATA ------------------ #
 st.sidebar.header("📁 Data")
