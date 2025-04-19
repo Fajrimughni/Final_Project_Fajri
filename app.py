@@ -56,7 +56,6 @@ music_url = "https://www.dropbox.com/scl/fi/qwjr1gnphqz2b4okp6l3a/Lady-Gaga-Clos
 add_background_music(music_url)
 
 # ------------------ LOAD DATA ------------------ #
-st.sidebar.header("📁 Data")
 df_cluster = pd.read_csv("cluster final.csv")
 df_recipe_revised = pd.read_csv("Revisi Resep Kostum Nutrisi.csv")
 consumer_profile = pd.read_csv("Profil Konsumen.csv")
@@ -65,11 +64,12 @@ consumer_profile = pd.read_csv("Profil Konsumen.csv")
 df_cluster = prepare_recipe_data(df_cluster)
 df_recipe_revised = prepare_recipe_data(df_recipe_revised)
 
-# ------------------ SIDEBAR: ABOUT ME ------------------ #
+# ------------------ SIDEBAR: TENTANG SAYA ------------------ #
 st.sidebar.header("ℹ️ Tentang Saya")
 about_me()  # Memindahkan fungsi About Me ke sidebar
 
-# ------------------ SIDEBAR: MENU PILIHAN ------------------ #
+# ------------------ SIDEBAR: MENU PILIHAN PROJECT ------------------ #
+st.sidebar.header("📚 Pilih Project")
 project_selection = st.sidebar.radio(
     "Pilih bagian project:",
     ("Segmentasi Resep", "Rekomendasi Resep")
