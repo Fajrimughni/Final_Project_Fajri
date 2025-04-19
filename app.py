@@ -16,20 +16,23 @@ st.set_page_config(layout="wide", page_title="Aplikasi Analisis & Rekomendasi Re
 # --- Custom Styling ---
 st.markdown("""
     <style>
-    .main {
-        background-color: #1abc9c;  /* Warna hijau toska */
+    body {
         font-family: 'Consolas', monospace;  /* Menggunakan font Consolas */
+    }
+    .main {
+        background-color: rgba(26, 188, 156, 0.3);  /* Warna hijau toska dengan transparansi 30% */
+        font-family: 'Consolas', monospace;
         color: white;
     }
     .header {
-        background-color: #16a085;  /* Warna hijau toska lebih gelap */
+        background-color: rgba(22, 160, 133, 0.3);  /* Warna hijau toska lebih gelap dengan transparansi 30% */
         color: white;
         padding: 10px;
         font-size: 32px;
         text-align: center;
     }
     .sidebar .sidebar-content {
-        background-color: #1abc9c;  /* Sidebar dengan warna hijau toska */
+        background-color: rgba(26, 188, 156, 0.3);  /* Sidebar dengan warna hijau toska dan transparansi 30% */
     }
     .stButton>button {
         background-color: #e74c3c;
@@ -39,7 +42,7 @@ st.markdown("""
         background-color: #ecf0f1;
     }
     .stDataFrame {
-        background-color: #ecf0f1;
+        background-color: rgba(236, 240, 241, 0.7);  /* DataFrame dengan latar belakang transparan */
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
