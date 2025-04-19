@@ -17,21 +17,22 @@ st.set_page_config(layout="wide", page_title="Aplikasi Analisis & Rekomendasi Re
 st.markdown("""
     <style>
     .main {
-        background-color: #f5f5f5;
-        font-family: 'Arial', sans-serif;
+        background-color: #1abc9c;  /* Warna hijau toska */
+        font-family: 'Consolas', monospace;  /* Menggunakan font Consolas */
+        color: white;
     }
     .header {
-        background-color: #2c3e50;
+        background-color: #16a085;  /* Warna hijau toska lebih gelap */
         color: white;
         padding: 10px;
         font-size: 32px;
         text-align: center;
     }
     .sidebar .sidebar-content {
-        background-color: #ecf0f1;
+        background-color: #1abc9c;  /* Sidebar dengan warna hijau toska */
     }
     .stButton>button {
-        background-color: #3498db;
+        background-color: #e74c3c;
         color: white;
     }
     .stSelectbox select {
