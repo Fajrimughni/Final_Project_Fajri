@@ -11,7 +11,40 @@ from About import about_me
 from Music import add_background_music  
 
 # ------------------ CONFIG ------------------ #
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Aplikasi Analisis & Rekomendasi Resep", page_icon="🍽️")
+
+# --- Custom Styling ---
+st.markdown("""
+    <style>
+    .main {
+        background-color: #f5f5f5;
+        font-family: 'Arial', sans-serif;
+    }
+    .header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 10px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .sidebar .sidebar-content {
+        background-color: #ecf0f1;
+    }
+    .stButton>button {
+        background-color: #3498db;
+        color: white;
+    }
+    .stSelectbox select {
+        background-color: #ecf0f1;
+    }
+    .stDataFrame {
+        background-color: #ecf0f1;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
 # Tentukan path file musik
