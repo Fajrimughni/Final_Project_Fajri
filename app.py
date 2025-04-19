@@ -69,11 +69,14 @@ df_recipe_revised = prepare_recipe_data(df_recipe_revised)
 st.sidebar.header("ℹ️ Tentang Saya")
 about_me()  # Memindahkan fungsi About Me ke sidebar
 
-# ------------------ TAB SELEKTOR ------------------ #
-tab1, tab2 = st.tabs(["📊 Segmentasi Resep", "🎯 Rekomendasi Resep"])
+# ------------------ SIDEBAR: MENU PILIHAN ------------------ #
+project_selection = st.sidebar.radio(
+    "Pilih bagian project:",
+    ("Segmentasi Resep", "Rekomendasi Resep")
+)
 
-# ------------------ TAB 1: SEGMENTASI ------------------ #
-with tab1:
+# ------------------ SEGMENTASI RESEP ------------------ #
+if project_selection == "Segmentasi Resep":
     st.subheader("📍 Visualisasi Segmentasi Resep Berdasarkan Klaster")
 
     fitur = df_cluster[['total_calories_estimated', 'loves', 'num_ingredients']]
@@ -117,8 +120,8 @@ with tab1:
     filtered_df = df_cluster[df_cluster['segment_label'] == selected_label]
     st.dataframe(filtered_df[['title', 'total_calories_estimated', 'loves', 'num_ingredients', 'segment_label']].reset_index(drop=True))
 
-# ------------------ TAB 2: REKOMENDASI ------------------ #
-with tab2:
+# ------------------ REKOMENDASI RESEP ------------------ #
+elif project_selection == "Rekomendasi Resep":
     st.subheader("🎯 Rekomendasi Resep Berdasarkan Preferensi Pengguna")
 
     user_id = st.selectbox("Pilih User ID", consumer_profile['user_id'])
