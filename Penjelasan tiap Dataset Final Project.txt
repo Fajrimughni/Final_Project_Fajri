@@ -1,57 +1,4 @@
-[ Penjelasan tiap Dataset Final Project ]
-
-Dataset 1 -> Favorite Food Zomato
-
-Nama dataset : Zomato.csv
-Lokasi dataset : India Region
-
-Deskripsi Data
-
-Ide dasar menganalisis dataset Zomato adalah untuk mendapatkan gambaran yang adil tentang faktor-faktor yang mempengaruhi pendirian berbagai jenis restoran di berbagai tempat di Bengaluru, peringkat agregat dari setiap restoran, Bengaluru menjadi salah satu kota tersebut memiliki lebih dari 12.000 restoran dengan restoran yang melayani hidangan dari seluruh dunia. Dengan pembukaan restoran baru setiap hari, industri belum jenuh dan permintaan meningkat dari hari ke hari. Meskipun permintaan meningkat, namun menjadi sulit bagi restoran baru untuk bersaing dengan restoran yang sudah mapan. Kebanyakan dari mereka menyajikan makanan yang sama. Bengaluru menjadi ibu kota TI India. Kebanyakan orang-orang di sini bergantung terutama pada makanan restoran karena mereka tidak punya waktu untuk memasak sendiri. Dengan permintaan restoran yang begitu besar, penting untuk mempelajari demografi suatu lokasi. Jenis makanan apa yang lebih populer di suatu daerah. Apakah seluruh wilayah menyukai makanan vegetarian. Jika ya, apakah lokalitas itu dihuni oleh sekte orang tertentu misalnya. Jain, Marwaris, Gujarat yang kebanyakan vegetarian. Analisis semacam ini dapat dilakukan dengan menggunakan data, dengan mempelajari faktor-faktor seperti :
-
-Lokasi Restoran
-Perkiraan harga makanan
-Restoran berdasarkan tema atau tidak
-Wilayah kota mana yang menyajikan masakan tersebut dengan jumlah maksimum restoran
-Kebutuhan masyarakat yang berjuang untuk mendapatkan masakan terbaik dari lingkungan
-Apakah lingkungan tertentu terkenal dengan jenis makanannya sendiri.
-Data tersebut akurat seperti yang tersedia di situs web zomato hingga 15 Maret 2019. Data diambil dari Zomato dalam dua tahap. Setelah melalui struktur situs web saya menemukan bahwa untuk setiap lingkungan terdapat 6-7 kategori restoran yaitu. Prasmanan, Kafe, Pengiriman, Makanan penutup, Makan di luar, Minuman & kehidupan malam, Pub dan bar.
-
-
-Dataset 2 -> Produksi Bahan Pangan di Dunia
-
-Nama dataset : world food production.csv
-Lokasi dataset : Global
-
-------------------------------------------------------------
-| Food Item         | Description                                  |
-------------------------------------------------------------
-| Maize            | Total production of maize in tonnes         |
-| Rice             | Total production of rice in tonnes          |
-| Yams             | Total production of yams in tonnes          |
-| Wheat            | Total production of wheat in tonnes         |
-| Tomatoes         | Total production of tomatoes in tonnes      |
-| Tea              | Total production of tea in tonnes           |
-| Sweet potatoes   | Total production of sweet potatoes in tonnes |
-| Sunflower seed   | Total production of sunflower seeds in tonnes |
-| Sugar cane       | Total production of sugar cane in tonnes    |
-| Soybeans         | Total production of soybeans in tonnes      |
-| Rye              | Total production of rye in tonnes           |
-| Potatoes         | Total production of potatoes in tonnes      |
-| Oranges          | Total production of oranges in tonnes       |
-| Peas dry         | Total production of dry peas in tonnes      |
-| Palm oil         | Total production of palm oil in tonnes      |
-| Grapes           | Total production of grapes in tonnes        |
-| Coffee green     | Total production of green coffee in tonnes  |
-| Cocoa beans      | Total production of cocoa beans in tonnes   |
-| Meat chicken     | Total production of chicken meat in tonnes  |
-| Bananas          | Total production of bananas in tonnes       |
-| Avocados         | Total production of avocados in tonnes      |
-| Apples           | Total production of apples in tonnes        |
-------------------------------------------------------------
-
-
-Dataset 3 -> Nutrisi Makanan di Indonesia
+Dataset 1 -> Nutrisi Makanan di Indonesia
 
 Nama dataset : nutrition.csv
 Lokasi dataset : Indonesia
@@ -77,7 +24,7 @@ name: name of food/drink
 image: link to food/drink images
 
 
-Dataset 4 -> Resep Makanan Indonesia
+Dataset 2 -> Resep Makanan Indonesia
 
 Nama dataset : dataset-ayam.csv
 Lokasi dataset : Indonesia
@@ -86,57 +33,7 @@ Indonesian cuisine is a collection of various regional culinary traditions that 
 
 Indonesian cuisine varies greatly by region and has many different influences.Sumatran cuisine, for example, often has Middle Eastern and Indian influences, featuring curried meat and vegetables such as gulai and curry, while Javanese cuisine is mostly indigenous,with some hint of Chinese influence. The cuisines of Eastern Indonesia are similar to Polynesian and Melanesian cuisine. Elements of Chinese cuisine can be seen in Indonesian cuisine: foods such as noodles, meat balls, and spring rolls have been completely assimilated.
 
-Dataset 5 -> Indikator Ekonomi dan Inflasi (GDP, Inflasi, Pengangguran, dan Pertumbuhan Ekonomi)
-
-Nama dataset : Economic Indicators And Inflation.csv
-Lokasi dataset : Global
-
-Economic Indicators & Inflation Dataset (Worldwide)
-This dataset provides key economic indicators, such as GDP, Inflation Rate, Unemployment Rate, and Economic Growth, for various countries around the world from 2010 to 2025. The data is presented in the following columns:
-
-Country: The name of the country for which the economic data is reported.
-Year: The year for which the data is recorded, spanning from 2010 to 2025.
-GDP (in billion USD): The total market value of all goods and services produced by the country in a given year, measured in billion USD. GDP reflects the size and health of an economy.
-Inflation Rate (%): The percentage change in the general price level of goods and services in the economy over the year. Inflation impacts purchasing power and economic stability.
-Unemployment Rate (%): The percentage of the country's labor force that is unemployed but actively seeking employment. It is a key indicator of economic health and labor market efficiency.
-Economic Growth (%): The annual percentage increase (or decrease) in GDP, representing whether the economy is expanding or contracting. Positive growth indicates expansion, while negative growth indicates contraction.
-Years Covered:
-The dataset includes historical data from 2010 to 2023 and projections for 2024 and 2025.
-Countries Included:
-This dataset includes major economies such as:
-
-United States
-China
-India
-Japan
-Germany
-France
-United Kingdom
-Brazil
-Canada
-Russia
-Australia
-Italy
-South Korea
-Saudi Arabia
-Indonesia
-Turkey
-Malaysia
-Pakistan
-Bangladesh
-Purpose:
-This dataset is designed to provide a comprehensive overview of the economic performance of different countries over the last decade. It can be used for:
-
-Economic analysis: Studying the correlation between economic indicators like GDP, inflation, and unemployment.
-Forecasting and trend analysis: Analyzing economic growth trends and making future projections based on historical data.
-Policy formulation: Helping policymakers make informed decisions based on past economic performance and future projections.
-Significance:
-The dataset includes historical data for understanding past economic patterns.
-Projections for the years 2024 and 2025 give insights into anticipated trends based on current forecasts from international organizations.
-The data helps in comparing economic conditions between countries and understanding how different factors such as inflation and unemployment affect economic growth.
-
-
-Dataset 6 -> Konsumsi Makanan di Indonesia (Faktor budaya yang Mempengaruhi Konsumsi Makanan di Indonesia)
+Dataset 3 -> Konsumsi Makanan di Indonesia (Faktor budaya yang Mempengaruhi Konsumsi Makanan di Indonesia)
 
 Nama dataset : DATASET_cultural dimension of food consumption.xlsx
 Lokasi dataset : Indonesia
