@@ -53,8 +53,6 @@ st.title("🍽️ Aplikasi Analisis & Rekomendasi Resep")
 
 # Tentukan path file musik
 music_url = "https://www.dropbox.com/scl/fi/qwjr1gnphqz2b4okp6l3a/Lady-Gaga-Close-To-You-HipHopKit.com.mp3?rlkey=ne5pn38xrojjyde0jrpzpymrs&st=pjqbg1rs&dl=1"
-
-# Memanggil fungsi untuk menambahkan musik latar
 add_background_music(music_url)
 
 # ------------------ LOAD DATA ------------------ #
@@ -67,12 +65,12 @@ consumer_profile = pd.read_csv("Profil Konsumen.csv")
 df_cluster = prepare_recipe_data(df_cluster)
 df_recipe_revised = prepare_recipe_data(df_recipe_revised)
 
-# ------------------ TAB SELEKTOR ------------------ #
-tab0, tab1, tab2 = st.tabs(["ℹ️ Tentang Saya", "📊 Segmentasi Resep", "🎯 Rekomendasi Resep"])
+# ------------------ SIDEBAR: ABOUT ME ------------------ #
+st.sidebar.header("ℹ️ Tentang Saya")
+about_me()  # Memindahkan fungsi About Me ke sidebar
 
-# ------------------ TAB 0: TENTANG SAYA ------------------ #
-with tab0:
-    about_me()
+# ------------------ TAB SELEKTOR ------------------ #
+tab1, tab2 = st.tabs(["📊 Segmentasi Resep", "🎯 Rekomendasi Resep"])
 
 # ------------------ TAB 1: SEGMENTASI ------------------ #
 with tab1:
@@ -101,16 +99,19 @@ with tab1:
     df_cluster['pca1'] = X_pca[:, 0]
     df_cluster['pca2'] = X_pca[:, 1]
 
+    # Visualisasi 1
     fig1, ax1 = plt.subplots(figsize=(8, 6))
     sns.scatterplot(data=df_cluster, x='pca1', y='pca2', hue='segment_label', palette='tab10', ax=ax1)
     ax1.set_title("Distribusi Resep Berdasarkan Klaster")
     st.pyplot(fig1)
 
+    # Visualisasi 2
     fig2, ax2 = plt.subplots(figsize=(6, 4))
     sns.heatmap(df_cluster[['total_calories_estimated', 'loves', 'num_ingredients', 'cluster']].corr(), annot=True, cmap='coolwarm', ax=ax2)
     st.subheader("📈 Korelasi Antar Fitur")
     st.pyplot(fig2)
 
+    # Menampilkan Data Berdasarkan Klaster
     st.subheader("🔍 Lihat Data Berdasarkan Klaster")
     selected_label = st.selectbox("Pilih segmen klaster:", sorted(df_cluster['segment_label'].unique()))
     filtered_df = df_cluster[df_cluster['segment_label'] == selected_label]
